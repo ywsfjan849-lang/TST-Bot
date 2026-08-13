@@ -385,4 +385,5 @@ async def text_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
         return
 if __name__ == "__main__":
+    app = Application.builder().token(BOT_TOKEN).build()
     app.run_polling()
