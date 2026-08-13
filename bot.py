@@ -384,3 +384,5 @@ async def text_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             reply_markup=main_menu()
         )
         return
+if __name__ == "__main__":
+    app.run_polling()
